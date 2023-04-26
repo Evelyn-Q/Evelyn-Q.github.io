@@ -1,0 +1,613 @@
+  body {
+    background-color: #AD8DF0;
+  }
+
+  body {
+    font-family: "Courier New", Courier;
+    font-weight: bolder;
+    font-size: larger;
+  } 
+
+  /* ************* Footer ************* */
+  
+  footer {
+    height: 95px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #D9D9D9;
+    color: #fff;
+  
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+  
+    border: 1px solid #747474;
+    box-shadow: 3px 3px 3px #C0C0C0 inset;
+  }
+
+  /* ************* Footer Elements ************* */
+  
+  .Taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .Taskbar img {
+    margin-right: 10px;
+  }
+  
+  .startIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    
+  }
+  
+  .startIcons img {
+    margin-right: 25px;
+  }
+
+  .startNotepad {
+    filter: brightness(50%);
+   }
+
+   .startExplorer {
+    filter: brightness(100%);
+   }
+  
+  .startFile {
+    filter: brightness(100%);
+  }
+  
+  .startFolder {
+    filter: brightness(100%);
+  }
+  
+  .startEmail {
+    filter: brightness(100%);
+  }
+
+  .search {
+    position: absolute;
+    bottom: 1em;
+    right: 13em;
+  }
+  
+  .calender {
+    position: absolute;
+    bottom: .5em;
+    right: 2em;
+  }
+
+  #datetime {
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    max-width: 5rem;
+  }
+  
+  #datetime {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-size: 13px;
+    font-weight: 2000;
+  }
+
+  /* ************* Sticky Note ************* */
+
+  .sticky-note {
+    position: absolute;
+    display: block;
+    visibility: visible;
+  }
+
+  .sticky-note:hover {
+    cursor: move;
+  }
+
+  .note {
+    position: absolute;
+    cursor: move;
+    top: 5em;
+    left: 50em;
+  }
+
+  #welcome-text {
+    font-family: "Courier New", Courier;
+    font-weight: bolder;
+    font-size: larger;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 4em;
+    overflow: hidden;
+
+    position: absolute;
+    top: 4em;
+    left: 25em;
+  }
+
+  #note-x {
+    position: absolute;
+    top: 5.45em;
+    left: 62.25em;
+  }
+
+  #note-x:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  /* ************* Desktop Icons ************* */
+
+  #home:hover {
+    filter: brightness(70%);
+    cursor: pointer;
+  }
+  
+  #file:hover {
+    filter: brightness(70%);
+    cursor: pointer;
+  }
+  
+  #folder:hover {
+    filter: brightness(70%);
+    cursor: pointer;
+  }
+  
+  #email:hover {
+    filter: brightness(70%);
+    cursor: pointer;
+  }
+  
+  #skills:hover {
+    filter: brightness(70%);
+    cursor: pointer;
+  }
+  
+  #home, #file, #folder, #email, #skills {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 0%;
+  }
+
+  #home {
+    position: absolute;
+    top: 1em;
+    left: 2em;
+  }
+
+  #file {
+    position: absolute;
+    top: 8em;
+    left: 2em;
+  }
+
+  #folder {
+    position: absolute;
+    top: 15em;
+    left: 2em;
+  }
+
+  #email {
+    position: absolute;
+    top: 22em;
+    left: 2em;
+  }
+
+  #skills {
+    position: absolute;
+    top: 1em;
+    left: 10em;
+  }
+
+  /* ************* About Me Main View ************* */
+
+  .about-me {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    top: 3em;
+    left: 32em;
+  }
+
+  #about-me-hello {
+    position: absolute;
+    top: 3.1em;
+    left: 1em;
+  }
+
+  #about-me-description {
+    position: absolute;
+    top: 5em;
+    left: 1em;
+  }
+
+  #about-me-x {
+    position: absolute;
+    top: .4em;
+    left: 23.75em;
+  }
+
+  #about-me-x:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+    /* ************* Main Class Hover Position ************* */
+
+  .sticky-note:hover {
+    cursor: move;
+    z-index: 10;
+  }
+  
+  .about-me:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  .projects:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  .gamestore-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  .bookstore-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  .gitlet-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  .enigma-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  .cpu-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+    /* ************* Projects Me Main View ************* */
+
+  .projects {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    top: 10em;
+    left: 14em;
+  }
+
+  #projects-x {
+    position: absolute;
+    top: .45em;
+    left: 34.6em;
+  }
+
+  #projects-x:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  #gamestore {
+    position: absolute;
+    top: 4em;
+    left: 2em;
+  }
+
+  #bookstore {
+    position: absolute;
+    top: 4em;
+    left: 9em;
+  }
+
+  #gitlet {
+    position: absolute;
+    top: 4em;
+    left: 16em;
+  }
+
+  #jump61 {
+    position: absolute;
+    top: 4em;
+    left: 23em;
+  }
+
+  #enigma {
+    position: absolute;
+    top: 4em;
+    left: 30em;
+  }
+
+  #cs61c {
+    position: absolute;
+    top: 12em;
+    left: 2em;
+  }
+
+  /* ************* Gamestore Project View ************* */
+
+  .gamestore-img {
+    position: absolute;
+    top: 4em;
+    left: 55em;
+
+    display: none;
+    visibility: hidden;
+  }
+
+  .gamestore-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  #gamestore:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  #game-x {
+    position: absolute;
+    top: .48em;
+    left:20.41em;
+  }
+
+  #game-x:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  /* ************* Bookstore Project View ************* */
+
+  .bookstore-img {
+    position: absolute;
+    top: 5em;
+    left: 13em;
+
+    display: none;
+    visibility: hidden;
+  }
+
+  .bookstore-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  #bookstore:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  #book-x {
+    position: absolute;
+    top: .45em;
+    left:20.41em;
+  }
+
+  #book-x:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  /* ************* Gitlet Project View ************* */
+
+  .gitlet-img {
+    position: absolute;
+    top: 13em;
+    left: 16em;
+
+    display: none;
+    visibility: hidden;
+  }
+
+  .gitlet-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  #gitlet:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  #gitlet-x {
+    position: absolute;
+    top: .48em;
+    left:20.38em;
+  }
+
+  #gitlet-x:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  /* ************* Jump61 Project View ************* */
+
+  .jump61-img {
+    position: absolute;
+    top: 10em;
+    left: 35em;
+
+    display: none;
+    visibility: hidden;
+  }
+
+  .jump61-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  #jump61:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  #jump-x {
+    position: absolute;
+    top: .45em;
+    left:20.45em;
+  }
+
+  #jump-x:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  /* ************* Enigma Project View ************* */
+
+  .enigma-img {
+    position: absolute;
+    top: 4em;
+    left: 30em;
+
+    display: none;
+    visibility: hidden;
+  }
+
+  .enigma-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  #enigma:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  #enigma-x {
+    position: absolute;
+    top: .45em;
+    left:20.41em;
+  }
+
+  #enigma-x:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  /* ************* cs61c Cpu Project View ************* */
+
+  .cpu-img {
+    position: absolute;
+    top: 12em;
+    left: 50em;
+
+    display: none;
+    visibility: hidden;
+  }
+
+  .cpu-img:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  #cs61c:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  #cpu-x {
+    position: absolute;
+    top: .48em;
+    left:20.41em;
+  }
+
+  #cpu-x:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  /* ************* Webpage Project View ************* */
+
+  .web {
+    position: absolute;
+    top: 6em;
+    left: 36em;
+    background-color: #FF84C6;
+    border-radius: 10px;
+
+    display: none;
+    visibility: hidden;
+    border: 3px solid black;
+
+  }
+
+  .web:hover {
+    cursor: move;
+    z-index: 10;
+  }
+
+  #web-x {
+    position: absolute;
+    top: 1.2em;
+    left: 11.5em;
+
+  }
+
+  #web-x:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  /* ************* Email View ************* */
+
+  .email-view {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    top: 2.5em;
+    left: 17em;
+  }
+
+  .email-view:hover{
+    cursor: move;
+    z-index: 10;
+  }
+
+  #email-x:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+  }
+
+  #email-x {
+    position: absolute;
+    top: .42em;
+    left: 30.75em;
+  }
+  
+  #gmail {
+    position: absolute;
+    top: 7em;
+    left: 10em;
+  }
+
+  #linkedin {
+    position: absolute;
+    top: 9em;
+    left: 10em;
+  }
+  
+  #github {
+    position: absolute;
+    top: 12em;
+    left: 10em;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
